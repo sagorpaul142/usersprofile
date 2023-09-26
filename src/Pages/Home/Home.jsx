@@ -68,7 +68,7 @@ const Home = () => {
             </div>
             {
                 !isLoading && !isError && data?.users?.length > 0 &&
-                <nav aria-label="Page navigation example">
+                <nav className="mx-4">
                     <ul className="flex items-center justify-center md:justify-end -space-x-px h-10 mt-4 text-base">
                         <li
                             className={`${page === 1 ? 'pointer-events-none' : 'cursor-pointer'} `}
