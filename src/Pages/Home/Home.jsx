@@ -31,7 +31,7 @@ const Home = () => {
         <Layout>
             {
                 !isLoading && !isFetching && !isError && data?.users?.length > 0 &&
-                <div className="text-sm text-gray-700 dark:text-gray-400 mb-5 text-center md:text-left">
+                <div className="text-sm text-gray-700 dark:text-gray-400 mb-5 text-center md:text-left md:ml-2">
                     Showing
                     <span
                         className="font-semibold text-gray-900 dark:text-white mx-1">{page * totalNumber - totalNumber + 1}</span>
